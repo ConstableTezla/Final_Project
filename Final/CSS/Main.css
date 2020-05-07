@@ -1,0 +1,169 @@
+html {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    font-family: 'Arima Madurai', cursive;
+}
+
+#Title {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+.Top {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 100%;
+}
+
+#Contact {
+    font-size: 80%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.Picture {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    font-size: 70%;
+  }
+  
+  li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+
+  figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+
+  table, tr, th {
+      border: 2px solid black;
+  }
+
+  .Blue {
+      background-color: blue;
+      color: white;
+  }
+
+  #Center {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+
+  .GBO {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+  }
+
+  #Xbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+  }
+
+  @media only screen and (min-width: 768px) {
+      div {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
+
+      .Picture {
+          width: 300px;
+          height: 300px;
+      }
+
+      h1 {
+          font-size: 175%;
+      }
+
+      ul {
+          font-size: 100%;
+      }
+
+      figcaption {
+          font-size: 150%;
+      }
+
+      .GBO {
+        width: 400px;
+        height: 300px;
+      }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .Picture {
+        width: 400px;
+        height: 400px;
+    }
+
+    #Contact {
+        font-size: 110%;
+    }
+
+    form{
+        font-size: 150%;
+    }
+  }
